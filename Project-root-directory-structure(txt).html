@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="ja">
+  <h1>プロジェクトルートディレクトリ構成ページ</h1>
+  <h2>ページ概要</h2>
+  <p>
+    このページは「NANAME-Tube」のプロジェクトルートディレクトリ構成の開設ページです。
+    このページの編集は他ファイルの 追加・変更・削除 以外行わないでください。
+  </p>
+  <h2>構成</h2>
+  <p>
+    video-sharing-platform/
+    ├── public/                    # 静的ファイル
+    │   ├── videos/               # サンプル動画ファイル
+    │   │   ├── sample1.mp4
+    │   │   └── sample2.mp4
+    │   ├── thumbnails/           # サムネイル画像
+    │   │   ├── 1.jpg
+    │   │   └── 2.jpg
+    │   ├── favicon.ico
+    │   └── vercel.svg
+    ├── components/               # Reactコンポーネント
+    │   ├── Header.js
+    │   ├── VideoPlayer.js
+    │   ├── VideoCard.js
+    │   ├── CommentSection.js
+    │   ├── Sidebar.js
+    │   └── UploadForm.js
+    ├── pages/                    # Next.jsページ
+    │   ├── index.js             # ホームページ
+    │   ├── upload.js            # アップロードページ
+    │   ├── watch/               # 動画視聴ページ
+    │   │   └── [id].js          # 動態ルート
+    │   ├── channel/             # チャンネルページ
+    │   │   └── [username].js
+    │   ├── api/                 # APIルート
+    │   │   ├── videos.js        # 動画データAPI
+    │   │   ├── upload.js        # アップロードAPI
+    │   │   └── comments.js      # コメントAPI
+    │   └── _app.js              # アプリケーションラッパー
+    ├── lib/                     # ユーティリティ関数
+    │   ├── api.js              # APIクライアント
+    │   ├── utils.js            # ヘルパー関数
+    │   └── data/               # データ管理
+    │       └── videos.js       # 動画データ（一時的）
+    ├── styles/                  # スタイルファイル
+    │   └── globals.css         # グローバルCSS
+    ├── .github/                 # GitHub設定
+    │   └── workflows/
+    │       └── deploy.yml      # デプロイワークフロー
+    ├── .env.local              # 環境変数（.gitignore対象）
+    ├── .gitignore              # Git除外ファイル
+    ├── next.config.js          # Next.js設定
+    ├── package.json            # 依存関係
+    ├── tailwind.config.js      # Tailwind設定
+    ├── postcss.config.js       # PostCSS設定
+    ├── README.md               # プロジェクト説明
+    └── jsconfig.json           # JS設定（オプション）
+  </p>
+  <h2>その他</h2>
+ <p>
+   その他ご不明点がございましたらお申し出ください。
+ </p>
+ </html>
