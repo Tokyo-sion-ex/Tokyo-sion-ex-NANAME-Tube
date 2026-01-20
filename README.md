@@ -13,4 +13,4 @@ YouTube風の動画共有プラットフォームです。Next.jsとReactで構�
 
 1. リポジトリをクローン
 ```bash
-[git clone https://github.com/Tokyo-sion-ex/Tokyo-sion-ex-NANAME-Tube.git
+git clone https://github.com/Tokyo-sion-ex/Tokyo-sion-ex-NANAME-Tube.git
