@@ -1,15 +1,16 @@
----<基本情報>---
+# VideoShare Platform
 
-元ネタ: YouTube / 二次創作作成: Tokyo-sion-ex / 初回作成年: 2026年 / 最終更新月: 1月
+YouTube風の動画共有プラットフォームです。Next.jsとReactで構築されています。
 
----<システムについて>---
+## 特徴
+- YouTube風UI/UX
+- レスポンシブデザイン
+- 動画アップロード機能
+- コメント・いいね機能
+- GitHub Pagesで無料ホスティング
 
-/＊[現在執筆中]＊\
+## セットアップ
 
----<その他>---
-
-/＊[現在執筆中]＊\
-
----<ライセンス>---
-
-MIT License
+1. リポジトリをクローン
+```bash
+[git clone https://github.com/Tokyo-sion-ex/Tokyo-sion-ex-NANAME-Tube.git
